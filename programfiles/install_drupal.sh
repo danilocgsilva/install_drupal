@@ -14,3 +14,4 @@ downloaded_file_name=drupal-$version.tar.gz
 #wget $url_to_download
 curl "$url_to_download" -o "$downloaded_file_name"
 tar xvzf $downloaded_file_name
+rm $downloaded_file_name
